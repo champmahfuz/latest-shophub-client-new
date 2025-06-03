@@ -47,6 +47,7 @@ const Dashboard = () => {
           "https://latest-shophub-client.onrender.com/api/auth/me",
           // "http://localhost:8000/api/auth/me",
           {
+            method: "GET",
             credentials: "include",
             headers: {
               Authorization: `Bearer ${token}`,
